@@ -10,7 +10,7 @@ After completing this lesson, participants will be able to:
 
 *   Identify multiple ways in which WooCommerce satisfies the needs of an eCommerce retailer.
 *   Install the WooCommerce plugin and complete the initial setup wizard.
-*   Add and modify products, review orders, and change the store settings.
+*   Modify products, review orders, and change the store settings.
 
 
 ## Target Audience
@@ -85,7 +85,7 @@ Participants will get the most from this lesson if they have familiarity with:
 ## Have You Thought About...?
 
 * What if the participant doesn't have the correct version of WordPress and plugin?
-* What if the participant's user role doesn't allow to install plugin and theme?
+* What if the participant's user role doesn't allow plugin and theme installation?
 * What if the participant's site is hosted on WordPress.com and doesn't have the access to install plugin and theme?
 
 
@@ -102,26 +102,26 @@ Participants will get the most from this lesson if they have familiarity with:
 
 **Add new product**
 
-Practice to add a new product. Participants can use the Karelian forest picture attached in this lesson or other images of the liking.
+Practice adding a new product. Participants can use the Karelian forest picture attached in this lesson or other images of the liking.
 
 *   Go to **Products > Add New**
 *   Set the attributes of the product to have 3 different sizes: 27x39", 18x11" and 36x54''
-*   Set different prices for each of the sizes of the posters
+*   Set different prices for each size of the poster
 
 **Change currency**
 
-Practice to change the currency to be accepted by the store.
+Practice changing the currency accepted by the store.
 
 * Go to **WooCommerce > Settings**.
 * At the **General > Currency options**, change the currency to **Malaysian Ringgit (RM)**.
 
 **Add new shipping method**
 
-Practice to add a new shipping method for local pickup.
+Practice adding a new shipping method for local pickup.
 
 *   Go to **WooCommerce > Settings > Shipping zones** and click **Edit**
 *   Add shipping method for Local pickup
-*   Add another shipping method if desired
+*   Add another shipping method, if desired
 
 
 
@@ -147,7 +147,7 @@ Practice to add a new shipping method for local pickup.
 
 **Why would you choose to use attributes instead of product categories to categorize items? (select as many options as apply)**
 
-1.  To allow users to search for several parameters simultaneously.
+1.  To allow users to search for several parameters simultaneously
 2.  To ensure better SEO
 3.  To define some extra pieces of technical information about the product like color, size, weight, etc
 4.  To simplify adding new products
