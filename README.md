@@ -55,10 +55,10 @@ How long will it take to teach this lesson (in minutes)?
 Participants will get the most from this lesson if they have familiarity with:
 
 
-*   Basic knowledge of [installing and activating WordPress plugins](https://make.wordpress.org/training/handbook/user-lessons/choosing-and-installing-plugins/)
-*   Basic knowledge of [installing and activating WordPress themes](https://make.wordpress.org/training/handbook/user-lessons/choosing-and-installing-a-theme/)
-*   [Managing Media](https://make.wordpress.org/training/handbook/user-lessons/managing-media/)
-*   [Categories vs Tags](https://make.wordpress.org/training/handbook/user-lessons/categories-vs-tags/)
+*   Basic knowledge of [installing and activating WordPress plugins](https://github.com/wptrainingteam/choosing-and-installing-plugins)
+*   Basic knowledge of [installing and activating WordPress themes](https://github.com/wptrainingteam/choosing-and-installing-themes)
+*   [Managing Media](https://github.com/wptrainingteam/managing-media)
+*   [Categories vs Tags](https://github.com/wptrainingteam/categories-versus-tags)
 
 ## Readiness Questions
 
