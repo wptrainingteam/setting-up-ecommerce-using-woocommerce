@@ -75,11 +75,11 @@ Participants will get the most from this lesson if they have familiarity with:
 ## Notes for the Instructor
 
 
-*   The recommended way to approach the scenarios would be to demonstrate and explain the process first, and then ask students to repeat the actions using their own devices, while you’re available for questions and troubleshooting if something doesn’t work out.
-*   It is easiest for students to work on a locally installed copy of WordPress. Set some time aside before class to assist students with installing WordPress locally if they need it or, if possible, send them instructions before the class so they come prepared. For more information on how to install WordPress locally, please visit our [Teacher Resources](https://make.wordpress.org/training/teacher-resources/) page.
-*   The preferred answer to the screening questions is “yes.” Participants who reply “no” to question 1 might require a bit of explanation, and if they answer “no” to questions 2 & 3 they may be grouped with other students to work in pairs on the installation.
-*   You may print out the Example Lesson part to use it as handouts or send it out as a PDF file to keep it green and preserve the links used throughout the document.
-*   This lesson is meant to serve as an introduction to using WooCommerce and does not aspire to fully cover its functionality. At the end of the lesson feel free to refer your students to the WooCommerce documentation to help them fine-tune their shops. It will be helpful to demonstrate what the documentation looks like and how to use it.
+*   It's recommended that you model the process for completing each example task first. Then the students should repeat the actions using their own devices. Make yourself available for questions and troubleshooting if something doesn’t work out.
+*   It is easiest for students to work on a locally installed copy of WordPress. If possible, send instructions on how to do this to all students before the class. In case need help, set time aside before class to assist with the local installation. For more information on how to install WordPress locally, please visit our [Teacher Resources](https://make.wordpress.org/training/teacher-resources/) page.
+*   The preferred answer to the screening questions is “yes.” Participants who reply “no” to question 1 might need a bit of explanation. If they answer “no” to questions 2 & 3, you can group them with other students to work in pairs on the installation.
+*   You may print out the Example Lesson part to use it as handouts. To keep it green and preserve the links used throughout the document, send it out as a PDF file.
+*   This lesson is an introduction to using WooCommerce. It does not cover its full functionality. At the end of the lesson, please refer your students to the WooCommerce documentation. It will be helpful to show what the documentation looks like and how to use it to help them fine-tune their shops. 
 
 
 ## Have You Thought About...?
