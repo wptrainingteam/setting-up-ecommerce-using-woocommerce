@@ -158,8 +158,8 @@ Practice adding a new shipping method for local pickup.
 
 ## Additional Resources
 
-* [WooCommerce blog](https://woocommerce.com/blog/)  is a nice resource to follow for advice
-* WooCommerce also offers extensive [documentation](https://docs.woocommerce.com/)  - among the many topics you may want to pay attention to the [Getting started](https://docs.woocommerce.com/documentation/plugins/woocommerce/getting-started/) section
+* [WooCommerce blog](https://woocommerce.com/blog/) is a nice resource to follow for advice
+* WooCommerce also offers extensive [documentation](https://docs.woocommerce.com/) - among the many topics you may want to pay attention to - the [Getting started](https://docs.woocommerce.com/documentation/plugins/woocommerce/getting-started/) section is best if you're new
 
 
 
