@@ -167,14 +167,15 @@ Practice to add a new shipping method for local pickup.
 
 ### Introduction: What is WooCommerce for?
 
-WooCommerce is an e-commerce plugin designed for small to large-sized online merchants using WordPress. Some of its important benefits are:
+WooCommerce is an e-commerce plugin for small to large-sized online merchants using WordPress. Some of its important benefits are:
 
 *   The plugin itself is free.
-*   It has very flexible settings including a wide range of product options to sell and over 300 free and paid extensions to choose from.
+*   It is very flexible, offering a wide range of product options for selling. 
+*   It has over 300 free and paid extensions to choose from.
 *   The customer data is independent of any third party software platform.
-*   WooCommerce is 100% open source (which allows you to benefit from an active and growing community of contributors).
+*   WooCommerce is 100% open source. (This allows you to benefit from an active and growing community of contributors.)
 
-During the flow of the lesson, we will be working for an imaginary company called YayWP! which sells large sized photo prints that you might want to use to decorate your home. You will install the WooCommerce plugin, set up the newly created e-shop to operate, add some products to the store, and review the menu options and reports. You will also learn about resources you can study to continue refining your e-shop to suit your needs.
+During the flow of the lesson, we will be working for an imaginary company called YayWP! which sells large sized photo prints that you might want to use to decorate your home. You will install the WooCommerce plugin, set up the new e-shop, add products to the store, and review the menu options and reports. You will also learn about resources you can study to continue refining your e-shop to suit your needs.
 
 ### Setting up the shop
 
