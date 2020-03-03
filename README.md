@@ -183,13 +183,13 @@ During the flow of the lesson, we will be working for an imaginary company calle
 
 First, you need to have WordPress (version 4.7 and above) installed. The second step will be to select a theme for the shop look & feel. Generally, it’s best if the theme is built and optimized for WooCommerce (here is [a guide](https://docs.woocommerce.com/document/choosing-the-right-theme/) you can use).
 
-In this lesson, you'll use the [Storefront](https://wordpress.org/themes/storefront/)  theme, which is from WooThemes, the creators of WooCommerce, and is designed to build e-commerce websites. Install and activate the theme before you proceed.
+In this lesson, you'll use the [Storefront](https://wordpress.org/themes/storefront/) theme. This is from WooThemes, the creators of WooCommerce. It is designed to build e-commerce websites. Install and activate the theme before you proceed.
 
-> ![(https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)](https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)Although Storefront is the theme WooThemes recommends for use with WooCommerce (it's their theme, after all!), there are plenty of other themes, both free and commercial, that are designed to integrate well with WooCommerce. If you don't use a theme designed for WooCommerce--and any will do--you'll probably have to add code and other modifications to make your store work.
+> ![(https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)](https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)Storefront is the theme WooThemes recommends for use with WooCommerce (it's their theme, after all!). There are plenty of other free and commercial themes optimized WooCommerce. If you don't use a theme designed for WooCommerce, you'll probably have to add code and other modifications to make your store work.
 
 #### WooCommerce Installation
 
->![(https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)](https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)For the training purposes it’s okay to be using a local installation of WordPress, but for a real-life scenario you need to be running WordPress on a self-hosted site and review server requirements before installation. Otherwise, you may encounter issues when using WooCommerce.
+>![(https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)](https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)For training purposes, it’s okay to use a local installation of WordPress. For a real-life scenario, you need to be running WordPress on a self-hosted site. It's important to review server requirements before installation. Otherwise, you may encounter issues when using WooCommerce.
 
 1\. You will now perform an automatic install of WooCommerce plugin. Log into your WordPress Dashboard and go to **Plugins > Add New**. In the search field, type “WooCommerce” and click Search Plugins. 
 
@@ -202,27 +202,27 @@ Install the newly found plugin by clicking **Install Now** and activate a plugin
 
 #### Onboarding Wizard
 
-An onboarding wizard will guide you through the steps needed to perform the initial configuration of WooCommerce.
+An on-boarding wizard will guide you through the installation steps to configure WooCommerce.
 
-1\. **Store Setup**: This screen requests you to enter your store's location, currency that your store is accepting and the types of products you plan to sell in your store.
+1\. **Store Setup**: Enter your store's location, currency accepted and the types of products you plan to sell.
 
 [![Store Setup](/images/storesetup.png)](/images/storesetup.png)
 
-2\. **Payment**: Here you can set the payment methods used by your shop.
+2\. **Payment**: Setup the payment methods used by your shop.
 
-There are two online payment options available which are Stripe and PayPal. Both payment options require you to have an account registered in order to accept payments using their services. To simplify the configuration here, you won't configure the online payment options so unselect Stripe and PayPal options.
+There are two online payment options available, Stripe and PayPal. You must register with your chosen payment method before you can accept payments using their services. To simplify the configuration here, you won't configure the online payment options. Deselect Stripe and PayPal options.
 
-Expand the **Offline Payments** section, select the **Cash on Delivery** option and click **Continue.**
+Expand the **Offline Payments** section. Select the **Cash on Delivery** option. Click **Continue.**
 
 [![Payment Options](/images/paymentoptions.png)](/images/paymentoptions.png)
 
-3\. **Shipping**: On this screen you're able to set your shipping options as well as the weight and dimention units used to ship your products.
+3\. **Shipping**: Set your shipping options. You can include weight and dimension units used to ship your products.
 
-For this demo, we're going to use *Flat Rate* as our shipping method at $5. Turn off the option of *Location not covered by your other zones*. Leave the **Weight unit** and **Dimention unit** configuration as default. Click **Continue** to proceed.
+For this demo, we're going to use *Flat Rate* as our shipping method at $5. Turn off the option of *Location not covered by your other zones*. Leave the **Weight unit** and **Dimension unit** configuration as default. Click **Continue** to proceed.
 
 [![Shipping](/images/shipping.png)](/images/shipping.png)
 
-4\. **Recommended**: The next screen shows you the recommended features to be installed for your WooCommerce store. For this demo, we'll select only the **Storefront Theme** option. Click **Continue** to proceed.
+4\. **Recommended**: Shows you the recommended features to be installed for your WooCommerce store. For this demo, we'll select only the **Storefront Theme** option. Click **Continue** to proceed.
 
 [![Shipping](/images/shipping.png)](/images/shipping.png)
 
