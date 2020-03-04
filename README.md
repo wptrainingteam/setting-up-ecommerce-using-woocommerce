@@ -235,27 +235,27 @@ For this demo, we're going to use *Flat Rate* as our shipping method at $5. Turn
 
 #### Shop Organization: Categories, product tags, and attributes
 
-Recall that your imaginary client YayWP! is selling large posters. Presumably, YayWP! customers are interested in the thematics and the size of the picture. You will use Product Categories to indicate the thematic, and you also have to manage the sizes available for sale.
+Recall that your imaginary client YayWP! is selling large posters. Presumably, YayWP! customers are interested in the thematics and the size of the picture. You will use Product Categories to indicate the thematic. You will also have to manage the sizes available for sale.
 
-**Product categories** and tags are very similar to regular post categories and tags. So, for sizes you could try to use product categories as well, but there are two reasons why that is not the most convenient option:
+**Product categories and tags** are similar to regular post categories and tags. Use product categories for grouping and product tags for details. There are two reasons why you should organize your products by category:
 
-*   The larger the print becomes, the more expensive it is, so it would be best to be able to set different prices for different sizes, while still having the picture and all its sizes listed as one item. This will make it easier for your customers to find and order the product.
+*   The larger the print, the more expensive. So you'll want to be able to set different prices for different sizes. You should use a category for you product and tags to list the different sizes and pricing. This means your picture and all its sizes will be listed as one item. This will make it easier for your customers to find and order the product.
 *   A user might want to include both size and thematics as their search parameters simultaneously.
 
-**Variable products** are a product type in WooCommerce that lets you offer a set of variations on a product, with control over prices, stock, image, and more for each variation.
+**Variable products** are a product type in WooCommerce. They let you offer a set of variations on a product. You can control prices, stock, image, and more for each variation.
 
-**Attributes** are pieces of data that can add more technical information to a product and help users refine your catalog while browsing/searching. Additionally, attributes are a key component of authoring variable products. 
+**Attributes** are pieces of data. Use them to add more technical information to a product. This helps users to refine your catalog while browsing/searching. Additionally, attributes are a key component of authoring variable products. 
 
 [![Attributes](/images/attributes.png)](/images/attributes.png)
 
-In the **WooCommerce > Products > Attributes** section, add an attribute before you create different variations of the picture. Type in “size” for the attribute name, and click **Add Attribute**.
+Go to **WooCommerce > Products > Attributes** section. Add an attribute before you create different variations of the picture. Type in “size” for the attribute name, and click **Add Attribute**.
 
 #### Managing a new variable product
 
-1\. Go to: **Products > Add New**. Generally, adding a product feels quite similar to writing a regular post in WordPress, so the view of the form should be familiar.
+1\. Go to: **Products > Add New**. Adding a product feels like writing a regular post in WordPress, so the view of the form should be familiar.
 
 [![Add new product](/images/addnewproduct.png)](/images/addnewproduct.png)
-You'll fill in the basic data first: name of the product, description, and  product categories as shown in the image above.
+Fill in the basic data first: name of the product, description, and  product categories as shown in the image above.
 
 2\. Add a product image using the Product Image form (under product tags). You may use a sample picture provided to “sell” it or use some other picture of your liking. This is how an added image appears once you add it: 
 
@@ -263,21 +263,21 @@ You'll fill in the basic data first: name of the product, description, and  prod
 
 3\. Now, make the product variable. Select **Variable product** option in the Product Data dropdown list.
 
->![(https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)](https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)Here is a bit more detail about the some of the other product options:
->*   A **Simple** product type describes the physical off-line product which requires shipping. A book or a laptop which do not require variation would be simple products.
->*   A **Virtual** product is a product that doesn’t require shipping, for example online tarot reading.
->*   A **Downloadable** product is similar to virtual, however, the customer is given a file to download - could be an indie video game.
+>![(https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)](https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)Here is a bit more detail about some of the other product options:
+>*   A **Simple** product type describes the physical off-line product which requires shipping. A book or a laptop, which do not require variation, are simple products.
+>*   A **Virtual** product is a product that doesn’t require shipping. For example, online tarot reading.
+>*   A **Downloadable** product is similar to a virtual product. In this instance, the customer is given a file to download. This could be an indie video game.
 
-At the moment virtual and downloadable products are not present in our list as we have no digital payment method configured.
+At the moment, virtual and downloadable products are not present in our list. These aren't included because we have no digital payment method configured.
 
 4\. Click through the first tabs of Product data meta box: **Inventory**, **Shipping**, and **Linked products**. This is where you can add some important data for your products. At the moment, you will skip through them and go straight to setting the product attributes and variations. Open the **Attributes** section. 
 
 [![Set attributes](/images/setattributes.png)](/images/setattributes.png)
 
 5\. Select "size" from the select box, and click **Add**.
->![(https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)](https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)By choosing ‘Custom product attribute’ from the select box you can apply custom product-level which will not be available in layered navigation or other products. 
+>![(https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)](https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)By choosing ‘Custom product attribute’ from the select box, you can apply a custom product-level. This will not be available in layered navigation or other products. 
 
-6\. Once you have chosen an attribute and added it, apply the terms attached to that attribute to the product. The attribute can be hidden on the frontend of your site by leaving the **Visible on the product page** checkbox unchecked. 
+6\. Once you have chosen an attribute and added it, apply the terms attached to that attribute to the product. You can hide the attribute on the frontend of your site by leaving the **Visible on the product page** checkbox unchecked. 
 
 Check both of the checkboxes and click **Add new** to add the values to the poster's available sizes. 
 
@@ -289,14 +289,14 @@ Check both of the checkboxes and click **Add new** to add the values to the post
 
 9\. Switch to the **Variations** tab. Make sure **Create variations from all attributes** option is selected and click **Go**. Then click **OK** on the confirmation message pop-up.
 
-10\. Now the two variations for your product are created, it's time to set up how they should be distinguished on your product page. 
+10\. You now have two variations for your product. Next, you'll set up how they should be distinguished on your product page. 
 
 [![Variations](/images/variations.png)](/images/variations.png)
 
-Click each of the variation panels for each combination and enter price - 15$ for the larger poster and 10$ for the smaller one. 
+Click each of the variation panels. For each combination enter price - $15 for the larger poster and $10 for the smaller one. 
 
 [![Variation prices](/images/variationprices.png)](/images/variationprices.pn)
-
+ 
 11\. Click **Save changes** when you are finished.
 
 12\. Try to save the product now. Click **Publish** to publish the product. 
