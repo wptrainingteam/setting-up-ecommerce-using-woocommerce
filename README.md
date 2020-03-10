@@ -313,10 +313,10 @@ The look is not polished, but the foundation for a great WordPress-based shop is
 
 #### Dashboard
 
-The WordPress customizable dashboard is normally the first thing you see when you log in to the site.  After being activated, WooCommerce adds two dashboard widgets you can use for an overview of your store:
+The WordPress customizable dashboard is the first thing you should see when you log in to the site. After activation, WooCommerce adds two dashboard widgets to help you monitor your store:
 
 *   The **WooCommerce recent reviews** widget displays your store’s most recent reviews.
-*   The **WooCommerce Status** widget gives you a quick overview of your store, alerting you if you have a processing order or an order on-hold, or a product is running low on stock. It also displays sales statistics.
+*   The **WooCommerce Status** widget gives you a quick overview of your store. It alerts you if you have an order processing, an order on-hold, or a product is running low on stock. It also displays sales statistics.
 
 
 [![Dashboard](/images/dashboard.png)](/images/dashboard.png)
@@ -326,11 +326,11 @@ The WordPress customizable dashboard is normally the first thing you see when yo
 
 Take a look at the other menu sections. 
 
-1\. Use the **Orders** section to view and manage orders. The orders placed by the customers at your shop will be displayed here.
+1\. Use the **Orders** section to view and manage orders. This will display all orders placed by customers at your shop.
 
 [![Orders](/images/orders.png)](/images/orders.png)
 
-2\. The **Coupons** section allows giving discounts by creating coupons that can be applied by customers on the checkout page. 
+2\. The **Coupons** section allows you to create discount coupons. Customers can apply them on the checkout page. 
 
 [![Coupons](/images/coupons.png)](/images/coupons.png)
 
@@ -338,15 +338,15 @@ Take a look at the other menu sections.
 
 [![Reports](/images/reports.png)](/images/reports.png)
 
-4\. The **Settings** section contains all the settings that you briefly explored when setting up the shop: general store settings, products settings, shipping, payments and more.
+4\. The **Settings** section contains all the settings you need when setting up your shop. You have already explored general store settings, products settings, shipping, payments and more.
 
 [![Settings](/images/settings.png)](/images/settings.png)
 
-5\. **Status** provides an overall snapshot of your setup, as well as potential conflicts, and is mostly used for troubleshooting on your own or when contacting support. 
+5\. **Status** provides a snapshot of your setup. It will highlight potential conflicts. Use this for troubleshooting on your own or when contacting support. 
 
 [![Status](/images/status.png)](/images/status.png)
 
-6\. The **Extensions** section is where you can browse for additional plugins and extensions to extend the functionality and features of your store.
+6\. The **Extensions** section is where you can find more plugins and extensions. These will help you to extend the functionality and features of your store.
 
 [![Extensions](/images/extensions.png)](/images/extensions.png)
 
