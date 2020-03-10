@@ -303,11 +303,11 @@ Click each of the variation panels. For each combination enter price - $15 for t
 
 ### Shop Overview
 
-At this point, the shop is fully operational. Take a look on how it looks by going to the **Shop** page of your site. 
+You now have an operational shop. Take a look by going to the **Shop** page of your site. 
 
 [![Shop overview](/images/shopoverview.png)](/images/shopoverview.png) 
 
-The look is quite not polished, but this could be a foundation of a great WordPress-based shop. Note you can also create custom menus and place it in your theme’s menu areas or in a widgetized area with the menus widget if you like. 
+The look is not polished, but the foundation for a great WordPress-based shop is there for you to refine. For example, you can improve your shop by creating custom menus. Once created, you can place them in your theme’s menu areas or in a widgetized area (use the menus widget). 
 
 ### WooCommerce menu items
 
