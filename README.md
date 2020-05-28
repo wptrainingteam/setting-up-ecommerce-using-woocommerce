@@ -167,14 +167,15 @@ Practice adding a new shipping method for local pickup.
 
 ### Introduction: What is WooCommerce for?
 
-WooCommerce is an e-commerce plugin designed for small to large-sized online merchants using WordPress. Some of its important benefits are:
+WooCommerce is an e-commerce plugin for small to large-sized online merchants using WordPress. Some of its important benefits are:
 
 *   The plugin itself is free.
-*   It has very flexible settings including a wide range of product options to sell and over 300 free and paid extensions to choose from.
+*   It is very flexible, offering a wide range of product options for selling. 
+*   It has over 300 free and paid extensions to choose from.
 *   The customer data is independent of any third party software platform.
-*   WooCommerce is 100% open source (which allows you to benefit from an active and growing community of contributors).
+*   WooCommerce is 100% open source. (This allows you to benefit from an active and growing community of contributors.)
 
-During the flow of the lesson, we will be working for an imaginary company called YayWP! which sells large sized photo prints that you might want to use to decorate your home. You will install the WooCommerce plugin, set up the newly created e-shop to operate, add some products to the store, and review the menu options and reports. You will also learn about resources you can study to continue refining your e-shop to suit your needs.
+During the flow of the lesson, we will be working for an imaginary company called YayWP! which sells large sized photo prints that you might want to use to decorate your home. You will install the WooCommerce plugin, set up the new e-shop, add products to the store, and review the menu options and reports. You will also learn about resources you can study to continue refining your e-shop to suit your needs.
 
 ### Setting up the shop
 
@@ -182,13 +183,13 @@ During the flow of the lesson, we will be working for an imaginary company calle
 
 First, you need to have WordPress (version 4.7 and above) installed. The second step will be to select a theme for the shop look & feel. Generally, it’s best if the theme is built and optimized for WooCommerce (here is [a guide](https://docs.woocommerce.com/document/choosing-the-right-theme/) you can use).
 
-In this lesson, you'll use the [Storefront](https://wordpress.org/themes/storefront/)  theme, which is from WooThemes, the creators of WooCommerce, and is designed to build e-commerce websites. Install and activate the theme before you proceed.
+In this lesson, you'll use the [Storefront](https://wordpress.org/themes/storefront/) theme. This is from WooThemes, the creators of WooCommerce. It is designed to build e-commerce websites. Install and activate the theme before you proceed.
 
-> ![(https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)](https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)Although Storefront is the theme WooThemes recommends for use with WooCommerce (it's their theme, after all!), there are plenty of other themes, both free and commercial, that are designed to integrate well with WooCommerce. If you don't use a theme designed for WooCommerce--and any will do--you'll probably have to add code and other modifications to make your store work.
+> ![(https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)](https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)Storefront is the theme WooThemes recommends for use with WooCommerce (it's their theme, after all!). There are plenty of other free and commercial themes optimized WooCommerce. If you don't use a theme designed for WooCommerce, you'll probably have to add code and other modifications to make your store work.
 
 #### WooCommerce Installation
 
->![(https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)](https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)For the training purposes it’s okay to be using a local installation of WordPress, but for a real-life scenario you need to be running WordPress on a self-hosted site and review server requirements before installation. Otherwise, you may encounter issues when using WooCommerce.
+>![(https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)](https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)For training purposes, it’s okay to use a local installation of WordPress. For a real-life scenario, you need to be running WordPress on a self-hosted site. It's important to review server requirements before installation. Otherwise, you may encounter issues when using WooCommerce.
 
 1\. You will now perform an automatic install of WooCommerce plugin. Log into your WordPress Dashboard and go to **Plugins > Add New**. In the search field, type “WooCommerce” and click Search Plugins. 
 
@@ -201,27 +202,27 @@ Install the newly found plugin by clicking **Install Now** and activate a plugin
 
 #### Onboarding Wizard
 
-An onboarding wizard will guide you through the steps needed to perform the initial configuration of WooCommerce.
+An on-boarding wizard will guide you through the installation steps to configure WooCommerce.
 
-1\. **Store Setup**: This screen requests you to enter your store's location, currency that your store is accepting and the types of products you plan to sell in your store.
+1\. **Store Setup**: Enter your store's location, currency accepted and the types of products you plan to sell.
 
 [![Store Setup](/images/storesetup.png)](/images/storesetup.png)
 
-2\. **Payment**: Here you can set the payment methods used by your shop.
+2\. **Payment**: Setup the payment methods used by your shop.
 
-There are two online payment options available which are Stripe and PayPal. Both payment options require you to have an account registered in order to accept payments using their services. To simplify the configuration here, you won't configure the online payment options so unselect Stripe and PayPal options.
+There are two online payment options available, Stripe and PayPal. You must register with your chosen payment method before you can accept payments using their services. To simplify the configuration here, you won't configure the online payment options. Deselect Stripe and PayPal options.
 
-Expand the **Offline Payments** section, select the **Cash on Delivery** option and click **Continue.**
+Expand the **Offline Payments** section. Select the **Cash on Delivery** option. Click **Continue.**
 
 [![Payment Options](/images/paymentoptions.png)](/images/paymentoptions.png)
 
-3\. **Shipping**: On this screen you're able to set your shipping options as well as the weight and dimention units used to ship your products.
+3\. **Shipping**: Set your shipping options. You can include weight and dimension units used to ship your products.
 
-For this demo, we're going to use *Flat Rate* as our shipping method at $5. Turn off the option of *Location not covered by your other zones*. Leave the **Weight unit** and **Dimention unit** configuration as default. Click **Continue** to proceed.
+For this demo, we're going to use *Flat Rate* as our shipping method at $5. Turn off the option of *Location not covered by your other zones*. Leave the **Weight unit** and **Dimension unit** configuration as default. Click **Continue** to proceed.
 
 [![Shipping](/images/shipping.png)](/images/shipping.png)
 
-4\. **Recommended**: The next screen shows you the recommended features to be installed for your WooCommerce store. For this demo, we'll select only the **Storefront Theme** option. Click **Continue** to proceed.
+4\. **Recommended**: Shows you the recommended features to be installed for your WooCommerce store. For this demo, we'll select only the **Storefront Theme** option. Click **Continue** to proceed.
 
 [![Shipping](/images/shipping.png)](/images/shipping.png)
 
@@ -234,27 +235,27 @@ For this demo, we're going to use *Flat Rate* as our shipping method at $5. Turn
 
 #### Shop Organization: Categories, product tags, and attributes
 
-Recall that your imaginary client YayWP! is selling large posters. Presumably, YayWP! customers are interested in the thematics and the size of the picture. You will use Product Categories to indicate the thematic, and you also have to manage the sizes available for sale.
+Recall that your imaginary client YayWP! is selling large posters. Presumably, YayWP! customers are interested in the thematics and the size of the picture. You will use Product Categories to indicate the thematic. You will also have to manage the sizes available for sale.
 
-**Product categories** and tags are very similar to regular post categories and tags. So, for sizes you could try to use product categories as well, but there are two reasons why that is not the most convenient option:
+**Product categories and tags** are similar to regular post categories and tags. Use product categories for grouping and product tags for details. There are two reasons why you should organize your products by category:
 
-*   The larger the print becomes, the more expensive it is, so it would be best to be able to set different prices for different sizes, while still having the picture and all its sizes listed as one item. This will make it easier for your customers to find and order the product.
+*   The larger the print, the more expensive. So you'll want to be able to set different prices for different sizes. You should use a category for you product and tags to list the different sizes and pricing. This means your picture and all its sizes will be listed as one item. This will make it easier for your customers to find and order the product.
 *   A user might want to include both size and thematics as their search parameters simultaneously.
 
-**Variable products** are a product type in WooCommerce that lets you offer a set of variations on a product, with control over prices, stock, image, and more for each variation.
+**Variable products** are a product type in WooCommerce. They let you offer a set of variations on a product. You can control prices, stock, image, and more for each variation.
 
-**Attributes** are pieces of data that can add more technical information to a product and help users refine your catalog while browsing/searching. Additionally, attributes are a key component of authoring variable products. 
+**Attributes** are pieces of data. Use them to add more technical information to a product. This helps users to refine your catalog while browsing/searching. Additionally, attributes are a key component of authoring variable products. 
 
 [![Attributes](/images/attributes.png)](/images/attributes.png)
 
-In the **WooCommerce > Products > Attributes** section, add an attribute before you create different variations of the picture. Type in “size” for the attribute name, and click **Add Attribute**.
+Go to **WooCommerce > Products > Attributes** section. Add an attribute before you create different variations of the picture. Type in “size” for the attribute name, and click **Add Attribute**.
 
 #### Managing a new variable product
 
-1\. Go to: **Products > Add New**. Generally, adding a product feels quite similar to writing a regular post in WordPress, so the view of the form should be familiar.
+1\. Go to: **Products > Add New**. Adding a product feels like writing a regular post in WordPress, so the view of the form should be familiar.
 
 [![Add new product](/images/addnewproduct.png)](/images/addnewproduct.png)
-You'll fill in the basic data first: name of the product, description, and  product categories as shown in the image above.
+Fill in the basic data first: name of the product, description, and  product categories as shown in the image above.
 
 2\. Add a product image using the Product Image form (under product tags). You may use a sample picture provided to “sell” it or use some other picture of your liking. This is how an added image appears once you add it: 
 
@@ -262,21 +263,21 @@ You'll fill in the basic data first: name of the product, description, and  prod
 
 3\. Now, make the product variable. Select **Variable product** option in the Product Data dropdown list.
 
->![(https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)](https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)Here is a bit more detail about the some of the other product options:
->*   A **Simple** product type describes the physical off-line product which requires shipping. A book or a laptop which do not require variation would be simple products.
->*   A **Virtual** product is a product that doesn’t require shipping, for example online tarot reading.
->*   A **Downloadable** product is similar to virtual, however, the customer is given a file to download - could be an indie video game.
+>![(https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)](https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)Here is a bit more detail about some of the other product options:
+>*   A **Simple** product type describes the physical off-line product which requires shipping. A book or a laptop, which do not require variation, are simple products.
+>*   A **Virtual** product is a product that doesn’t require shipping. For example, online tarot reading.
+>*   A **Downloadable** product is similar to a virtual product. In this instance, the customer is given a file to download. This could be an indie video game.
 
-At the moment virtual and downloadable products are not present in our list as we have no digital payment method configured.
+At the moment, virtual and downloadable products are not present in our list. These aren't included because we have no digital payment method configured.
 
 4\. Click through the first tabs of Product data meta box: **Inventory**, **Shipping**, and **Linked products**. This is where you can add some important data for your products. At the moment, you will skip through them and go straight to setting the product attributes and variations. Open the **Attributes** section. 
 
 [![Set attributes](/images/setattributes.png)](/images/setattributes.png)
 
 5\. Select "size" from the select box, and click **Add**.
->![(https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)](https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)By choosing ‘Custom product attribute’ from the select box you can apply custom product-level which will not be available in layered navigation or other products. 
+>![(https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)](https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-idea.png)By choosing ‘Custom product attribute’ from the select box, you can apply a custom product-level. This will not be available in layered navigation or other products. 
 
-6\. Once you have chosen an attribute and added it, apply the terms attached to that attribute to the product. The attribute can be hidden on the frontend of your site by leaving the **Visible on the product page** checkbox unchecked. 
+6\. Once you have chosen an attribute and added it, apply the terms attached to that attribute to the product. You can hide the attribute on the frontend of your site by leaving the **Visible on the product page** checkbox unchecked. 
 
 Check both of the checkboxes and click **Add new** to add the values to the poster's available sizes. 
 
@@ -288,34 +289,34 @@ Check both of the checkboxes and click **Add new** to add the values to the post
 
 9\. Switch to the **Variations** tab. Make sure **Create variations from all attributes** option is selected and click **Go**. Then click **OK** on the confirmation message pop-up.
 
-10\. Now the two variations for your product are created, it's time to set up how they should be distinguished on your product page. 
+10\. You now have two variations for your product. Next, you'll set up how they should be distinguished on your product page. 
 
 [![Variations](/images/variations.png)](/images/variations.png)
 
-Click each of the variation panels for each combination and enter price - 15$ for the larger poster and 10$ for the smaller one. 
+Click each of the variation panels. For each combination enter price - $15 for the larger poster and $10 for the smaller one. 
 
 [![Variation prices](/images/variationprices.png)](/images/variationprices.pn)
-
+ 
 11\. Click **Save changes** when you are finished.
 
 12\. Try to save the product now. Click **Publish** to publish the product. 
 
 ### Shop Overview
 
-At this point, the shop is fully operational. Take a look on how it looks by going to the **Shop** page of your site. 
+You now have an operational shop. Take a look by going to the **Shop** page of your site. 
 
 [![Shop overview](/images/shopoverview.png)](/images/shopoverview.png) 
 
-The look is quite not polished, but this could be a foundation of a great WordPress-based shop. Note you can also create custom menus and place it in your theme’s menu areas or in a widgetized area with the menus widget if you like. 
+The look is not polished, but the foundation for a great WordPress-based shop is there for you to refine. For example, you can improve your shop by creating custom menus. Once created, you can place them in your theme’s menu areas or in a widgetized area (use the menus widget). 
 
 ### WooCommerce menu items
 
 #### Dashboard
 
-The WordPress customizable dashboard is normally the first thing you see when you log in to the site.  After being activated, WooCommerce adds two dashboard widgets you can use for an overview of your store:
+The WordPress customizable dashboard is the first thing you should see when you log in to the site. After activation, WooCommerce adds two dashboard widgets to help you monitor your store:
 
 *   The **WooCommerce recent reviews** widget displays your store’s most recent reviews.
-*   The **WooCommerce Status** widget gives you a quick overview of your store, alerting you if you have a processing order or an order on-hold, or a product is running low on stock. It also displays sales statistics.
+*   The **WooCommerce Status** widget gives you a quick overview of your store. It alerts you if you have an order processing, an order on-hold, or a product is running low on stock. It also displays sales statistics.
 
 
 [![Dashboard](/images/dashboard.png)](/images/dashboard.png)
@@ -325,11 +326,11 @@ The WordPress customizable dashboard is normally the first thing you see when yo
 
 Take a look at the other menu sections. 
 
-1\. Use the **Orders** section to view and manage orders. The orders placed by the customers at your shop will be displayed here.
+1\. Use the **Orders** section to view and manage orders. This will display all orders placed by customers at your shop.
 
 [![Orders](/images/orders.png)](/images/orders.png)
 
-2\. The **Coupons** section allows giving discounts by creating coupons that can be applied by customers on the checkout page. 
+2\. The **Coupons** section allows you to create discount coupons. Customers can apply them on the checkout page. 
 
 [![Coupons](/images/coupons.png)](/images/coupons.png)
 
@@ -337,15 +338,15 @@ Take a look at the other menu sections.
 
 [![Reports](/images/reports.png)](/images/reports.png)
 
-4\. The **Settings** section contains all the settings that you briefly explored when setting up the shop: general store settings, products settings, shipping, payments and more.
+4\. The **Settings** section contains all the settings you need when setting up your shop. You have already explored general store settings, products settings, shipping, payments and more.
 
 [![Settings](/images/settings.png)](/images/settings.png)
 
-5\. **Status** provides an overall snapshot of your setup, as well as potential conflicts, and is mostly used for troubleshooting on your own or when contacting support. 
+5\. **Status** provides a snapshot of your setup. It will highlight potential conflicts. Use this for troubleshooting on your own or when contacting support. 
 
 [![Status](/images/status.png)](/images/status.png)
 
-6\. The **Extensions** section is where you can browse for additional plugins and extensions to extend the functionality and features of your store.
+6\. The **Extensions** section is where you can find more plugins and extensions. These will help you to extend the functionality and features of your store.
 
 [![Extensions](/images/extensions.png)](/images/extensions.png)
 
