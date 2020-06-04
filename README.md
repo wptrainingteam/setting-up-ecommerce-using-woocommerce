@@ -8,6 +8,7 @@ In this lesson you will learn the basics of using the WooCommerce plugin for Wor
 
 After completing this lesson, participants will be able to:
 
+*   Identify and evaluate the eCommerce options available for WordPress
 *   Identify multiple ways in which WooCommerce satisfies the needs of an eCommerce retailer.
 *   Install the WooCommerce plugin and complete the initial setup wizard.
 *   Modify products, review orders, and change the store settings.
@@ -77,6 +78,7 @@ Participants will get the most from this lesson if they have familiarity with:
 
 ## Notes for the Presenter
 
+*   It's recommended that you take students through some of the factors they need to consider when selecting an eCommerce plugin. Then show them how to search for eCommerce plugins in the WordPress Directory [Teacher Resources] (https:https://wordpress.org/plugins/) page. 
 *   It's recommended that you model the process for completing each example task first. Then the students should repeat the actions using their own devices. Make yourself available for questions and troubleshooting if something doesn’t work out.
 *   It is easiest for students to work on a locally installed copy of WordPress. If possible, send instructions on how to do this to all students before the class. In case need help, set time aside before class to assist with the local installation. For more information on how to install WordPress locally, please visit our [Teacher Resources](https://make.wordpress.org/training/teacher-resources/) page.
 *   The preferred answer to the screening questions is “yes.” Participants who reply “no” to question 1 might need a bit of explanation. If they answer “no” to questions 2 & 3, you can group them with other students to work in pairs on the installation.
@@ -89,7 +91,7 @@ Participants will get the most from this lesson if they have familiarity with:
 
 ## Lesson Outline
 
-* Introduction to WooCommerce and its usage
+* Evaluating Introduction to WooCommerce and its usage
 * Installing WooCommerce plugin and setting up the store
 * Adding and managing products
 * Understanding WooCommerce menu items
@@ -159,6 +161,19 @@ Practice adding a new shipping method for local pickup.
 * WooCommerce also offers extensive [documentation](https://docs.woocommerce.com/) - among the many topics you may want to pay attention to - the [Getting started](https://docs.woocommerce.com/documentation/plugins/woocommerce/getting-started/) section is best if you're new
 
 ## Example Lesson
+
+### Overview: Searching for an eCommerce plugin
+
+Think about what your eCommerce retailer needs. For instance, are they selling physical, digital or subscription based products or services? Do they need shipping and inventory management? What is their budget? Knowing what their requirements are will help you determine the right eCommerce plugin for their WordPress store. 
+
+Armed with what they need, you can then search for the plugin that best suits their requirements using the WordPress plugin directory. Some of the popular options are:
+*   WooCommerce
+*   Easy Digital Downloads
+*   MemberPress
+*   Shopify
+*   EcWid
+*   BigCommerce
+*   Give
 
 ### Introduction: What is WooCommerce for?
 
