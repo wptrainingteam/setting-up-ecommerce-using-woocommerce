@@ -66,30 +66,28 @@ Participants will get the most from this lesson if they have familiarity with:
 *   Do you have a self-hosted WordPress website?
 *   Do you have a user role that allows you to install plugins and themes?
 
+## Slides
+*   [Slides] (https://github.com/wptrainingteam/repo-template) 
+
 ## Materials Needed
 
 *   [WooCommerce](https://wordpress.org/plugins/woocommerce/) plugin, version 3.4.4
 *   Installation of WordPress, version 4.7 or higher
 *   Sample pictures to represent the products: [Phewa lake](/images/phewa.jpg), [Karelian forest](/images/karelia.jpg) (any other may be used)
 
-## Notes for the Instructor
-
+## Notes for the Presenter
 
 *   It's recommended that you model the process for completing each example task first. Then the students should repeat the actions using their own devices. Make yourself available for questions and troubleshooting if something doesn’t work out.
 *   It is easiest for students to work on a locally installed copy of WordPress. If possible, send instructions on how to do this to all students before the class. In case need help, set time aside before class to assist with the local installation. For more information on how to install WordPress locally, please visit our [Teacher Resources](https://make.wordpress.org/training/teacher-resources/) page.
 *   The preferred answer to the screening questions is “yes.” Participants who reply “no” to question 1 might need a bit of explanation. If they answer “no” to questions 2 & 3, you can group them with other students to work in pairs on the installation.
 *   You may print out the Example Lesson part to use it as handouts. To keep it green and preserve the links used throughout the document, send it out as a PDF file.
 *   This lesson is an introduction to using WooCommerce. It does not cover its full functionality. At the end of the lesson, please refer your students to the WooCommerce documentation. It will be helpful to show what the documentation looks like and how to use it to help them fine-tune their shops. 
-
-
-## Have You Thought About...?
-
 * What if the participant doesn't have the correct version of WordPress and plugin?
 * What if the participant's user role doesn't allow plugin and theme installation?
 * What if the participant's site is hosted on WordPress.com and doesn't have the access to install plugin and theme?
 
 
-## Lesson Overview
+## Lesson Outline
 
 * Introduction to WooCommerce and its usage
 * Installing WooCommerce plugin and setting up the store
@@ -155,13 +153,10 @@ Practice adding a new shipping method for local pickup.
 
 **Answer:** 1\. To allow users to search for several parameters simultaneously. & 3. To define some extra pieces of technical information about the product like color, size, weight, etc
 
-
 ## Additional Resources
 
 * [WooCommerce blog](https://woocommerce.com/blog/) is a nice resource to follow for advice
 * WooCommerce also offers extensive [documentation](https://docs.woocommerce.com/) - among the many topics you may want to pay attention to - the [Getting started](https://docs.woocommerce.com/documentation/plugins/woocommerce/getting-started/) section is best if you're new
-
-
 
 ## Example Lesson
 
